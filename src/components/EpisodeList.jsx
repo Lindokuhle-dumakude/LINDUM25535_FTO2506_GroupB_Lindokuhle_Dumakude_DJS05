@@ -3,12 +3,16 @@ import "../styles/EpisodeList.css";
 /**
  * Displays a list of episodes for the selected season.
  */
-export default function EpisodeList({ episodes }) {
+export default function EpisodeList({ episodes, seasonImage }) {
   return (
     <div className="episode-list">
       {episodes.map((ep) => (
         <div key={ep.id} className="episode-card">
-          <img src={ep.image} alt={ep.title} className="episode-image" />
+          <img
+            src={seasonImage}
+            alt={`Season thumbnail`}
+            className="episode-image"
+          />
 
           <div className="episode-content">
             <h4 className="episode-title">
