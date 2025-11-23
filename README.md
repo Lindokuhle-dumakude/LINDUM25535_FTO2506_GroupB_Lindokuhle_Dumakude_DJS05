@@ -56,3 +56,30 @@ Designed to work smoothly on:
 - **JavaScript (ES6+)**
 
 ---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Lindokuhle-dumakude/LINDUM25535_FTO2506_GroupB_Lindokuhle_Dumakude_DJS05.git
+cd LINDUM25535_FTO2506_GroupB_Lindokuhle_Dumakude_DJS05
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **Open the app**
+
+Navigate to http://localhost:5173 in your browser
+
+---
