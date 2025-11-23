@@ -1,17 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
 body {
   background: #ffffff;
-  margin: 0;
   font-family: "Inter", sans-serif;
   color: #222;
 }
 
 .podcast-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .podcast-card {
@@ -47,4 +58,17 @@ body {
 .podcast-date {
   font-size: 0.9rem;
   color: #555;
+}
+
+.podcast-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.podcast-card a:visited {
+  color: inherit;
+}
+
+.podcast-card a:hover {
+  text-decoration: none;
 }
