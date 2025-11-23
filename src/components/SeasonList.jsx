@@ -33,7 +33,7 @@ export default function SeasonList({ seasons }) {
           Season {season.season}: {season.title || "Untitled Season"}
         </h3>
         <p className="season-description">{season.description}</p>
-        <p className="season-meta"></p>
+        <p className="season-meta">Episodes: {season.episodes.length}</p>
       </div>
 
       <EpisodeList episodes={season.episodes} />
