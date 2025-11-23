@@ -36,7 +36,7 @@ export default function SeasonList({ seasons }) {
         <p className="season-meta">Episodes: {season.episodes.length}</p>
       </div>
 
-      <EpisodeList episodes={season.episodes} />
+      <EpisodeList episodes={season.episodes} seasonImage={season.image} />
     </div>
   );
 }
