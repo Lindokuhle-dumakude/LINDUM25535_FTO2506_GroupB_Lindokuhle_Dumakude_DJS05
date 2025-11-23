@@ -30,3 +30,8 @@
     flex-direction: row;
   }
 }
+
+.season-meta {
+  color: #555;
+  margin-left: 0.75rem;
+}
