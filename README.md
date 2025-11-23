@@ -1,16 +1,58 @@
-# React + Vite
+# 🎧 PodGenius — Podcast Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PodGenius is a modern, responsive podcast browsing application built with **React**, allowing users to explore podcasts, view detailed show information, browse seasons, and read episode summaries.
 
-Currently, two official plugins are available:
+The app consumes the Podcast API hosted at  
+➡️ https://podcast-api.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Browse Podcasts
 
-## Expanding the ESLint configuration
+View a responsive grid of shows with images, titles, genres, and release information.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Search & Filter
+
+Search by title and filter by genre to quickly find content you’re interested in.
+
+### ✅ Show Details
+
+Click any podcast to view:
+
+- Show banner
+- Title
+- Dynamic “Read more / Show less” description
+- Genre tags (mapped via genre ID)
+- Last updated date
+- Season summaries
+
+### ✅ Season & Episode Viewer
+
+Each season includes:
+
+- Season title
+- Season description
+- Episode count
+- Episodes with titles, short descriptions, and season images instead of episode thumbnails
+
+### ✅ Responsive UI
+
+Designed to work smoothly on:
+
+- Desktop
+- Tablets
+- Mobile
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **React Router**
+- **Podcast API**
+- **CSS Modules / Responsive CSS**
+- **JavaScript (ES6+)**
+
+---
